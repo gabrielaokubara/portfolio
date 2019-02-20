@@ -1,0 +1,157 @@
+* {margin: 0; padding: 0; border: 0;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+	background-image: url("../imagens/keyboard.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p {
+	padding: 0px 5px 0px 5px;
+	text-align: justify;
+}
+
+.geral {
+	padding: 0px;
+	width: 100%;
+	font-family: Cordia New;
+	font-size: 4vh;
+}
+	#welcome {
+		/*background-color: #01010c;*/
+		background:rgba(0,0,0,0.5);
+		color: white;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 5vh;
+	}
+	#welcome h1 {
+		font-size: 10vh;
+		border-bottom: 1vh;
+	}
+	#welcome .btn{
+		font-size: 3vh !important;
+	}
+		.name {
+			text-align: center;
+		}
+		
+	#about, #valores, #contact {
+		background-color: white;
+	}
+	
+	.central-box {
+		width: 80%;
+		margin: 0 auto;
+		padding: 7vh 2vh 5vh 2vh;
+		/*border: 3px solid;*/
+	}
+	
+	.central-box h1 {
+		font-size: 5vh;
+		margin-bottom: 3vh;
+		color: black;
+	}
+	
+	#about, #valores, #knowledge, #works, #contact, .finish {
+		float: left;
+		width: 100%;
+	}
+		#about_image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 5vh;
+		}
+			.image_about {
+				height: 40vh;
+				border-radius: 100%;
+			}
+		#about_text {
+			text-align: justify;
+		}
+		
+	#knowledge h1 {
+		text-align: center;
+		color: white;
+		font-size: 6vh;
+	}
+		.image_knowledge {
+			width: 12vh;
+			margin-bottom: 5vh;
+		}
+		
+		.knowledge_item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+	#knowledge, #works {
+		background-color: #181870;
+		color: white;
+	}
+	
+	#valores {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#works h1 {
+		font-size: 6vh;
+		color: white;
+	}
+		.image_works {
+			width: 80vh;
+			margin-bottom: 5vh;
+			position: relative;
+		}
+	
+	#contact {
+		display: flex;
+		align-items: center;
+	}
+	
+		.image_contact {
+			width: 12vh;
+			margin-bottom: 5vh;
+		}
+	
+	
+	.finish {
+		background-color: #01010c;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	/*Botão "Voltar ao topo" flutuante*/
+	#topo_flutuante{
+		bottom: 10px;
+		right: 10px;
+		position: fixed;
+		border: 0;
+	}
+
+	#topo_flutuante:hover {
+		opacity:1;
+	}
+	
+	/*Galeria*/	
+	.image_gallery {
+		padding: 5px 0px 5px 0px;
+		width: 100%;
+	}
+	.image_gallery_responsive {
+		padding: 5px 0px 5px 0px;
+		width: 32.9%;
+	}
